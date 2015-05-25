@@ -12,6 +12,21 @@ public class IntroController : MonoBehaviour
 		gameObject.SetActive (false);
 	}
 
+    void Update()
+    {
+        if (Input.anyKey)
+        {
+            if (nextObject == null)
+            {
+                GoToNextScene();
+            }
+            else
+            {
+                ActivateNext();
+            }
+        }
+    }
+
 	public void GoToNextScene ()
 	{
 
@@ -23,10 +38,7 @@ public class IntroController : MonoBehaviour
 			Application.LoadLevel ("Intro_3");
 			break;
 		case "Intro_3":
-			Application.LoadLevel ("Intro_4");
-			break;
-		case "Intro_4":
-			Application.LoadLevel ("Intro_5");
+                Application.LoadLevel ("Sewers");
 			break;
 		}
 

@@ -1,9 +1,12 @@
 fileFormatVersion: 2
-guid: 1345e58892f804c858e3839789f8809c
-timeCreated: 1432293683
+guid: 96d754d68a21b4b42a526ed0a88b4cc5
+timeCreated: 1432317064
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: 5_6_0
+    21300002: 5_6_1
+    21300004: 5_6_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,7 +32,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: 2
+    filterMode: -1
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -37,7 +40,7 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +51,27 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: 5_6_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 8
+        width: 108
+        height: 209
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 5_6_2
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 13
+        width: 149
+        height: 251
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
